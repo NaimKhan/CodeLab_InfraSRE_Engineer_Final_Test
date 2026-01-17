@@ -13,12 +13,19 @@ The design implements a production-ready architecture based on the provided requ
 
 ## Repository Structure
 
-├── README.md 		 # This file – repository overview and navigation
-└── docs/
-├── c4_context.png 	 # C4 Context Diagram – system-level overview
-├── c4_container.png 	 # C4 Container Diagram – detailed component view
-├── network_topology.png # Network Topology – VPC, subnets, and security
-└── summary.md 		 # Complete architecture documentation with design rationale
+📁 **Root**
+├── [`README.md`](README.md)  
+│   └── *Repository overview, navigation guide, and quick start instructions*
+
+📁 **docs/**  
+├── [`c4_context.png`](docs/c4_context.png)  
+│   └── 🖼️ **C4 Context Diagram** – High-level system view with external actors and core systems  
+├── [`c4_container.png`](docs/c4_container.png)  
+│   └── 🖼️ **C4 Container Diagram** – Internal component breakdown (9 containers, protocols, data flow)  
+├── [`network_topology.png`](docs/network_topology.png)  
+│   └── 🖼️ **Network Topology** – VPC layout, four-tier subnets, security groups, and isolation zones  
+└── [`summary.md`](docs/summary.md)  
+    └── 📄 **Complete Architecture Documentation** – Design rationale, workflows, security model, and compliance checklist
 
 ---
 
